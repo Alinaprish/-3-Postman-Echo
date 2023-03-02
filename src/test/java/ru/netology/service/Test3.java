@@ -11,7 +11,7 @@ public class Test3 {
     @Test
     void shouldReturnBody() {
         // Given - When - Then
-// Предусловия
+
         given()
                 .baseUri("https://postman-echo.com")
                 .body("data: some data") // отправляемые данные (заголовки и query можно выставлять аналогично)
